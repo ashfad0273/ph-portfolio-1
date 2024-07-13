@@ -47,7 +47,7 @@ p {
 .secondary-btn {
   color: #fd6e0a;
   padding: 18px 35px;
-  text-align: center;
+  margin: auto;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
@@ -110,6 +110,9 @@ header nav ul li {
 
 .banner-txt {
   padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .banner-txt h1 {
@@ -120,9 +123,8 @@ header nav ul li {
   color: #181818;
 }
 
-.banner-txt-btns {
-  display: flex;
-  gap: 30px;
+.banner-txt-btns button {
+  margin: 30px;
 }
 
 .banner-img img {
@@ -197,11 +199,13 @@ about-me p,
 
 .what-i-do .what-i-do-boxes .what-i-do-boxe p {
   font-size: 16px;
+  padding-top: 20px;
 }
 
 /* what id do section closed */
 
 .summary {
+  padding: 100px 0;
   margin: auto;
   width: 1140px;
   display: flex;
