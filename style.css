@@ -36,6 +36,7 @@ p {
   background-color: #fd6e0a;
   padding: 18px 35px;
   border-radius: 5px;
+  margin: auto;
   border: none;
   color: white;
   font-size: 20px;
@@ -206,6 +207,7 @@ about-me p,
   display: flex;
   flex-direction: column;
   gap: 30px;
+  justify-content: center;
 }
 .summary h5 {
   text-align: center;
@@ -219,7 +221,7 @@ about-me p,
 .my-experience {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
 }
 
 .summary-edu {
@@ -228,4 +230,13 @@ about-me p,
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+footer {
+  background: #fff8f3;
+}
+.footer {
+  padding: 130px 0;
+  display: flex;
+  width: 1140px;
+  margin: auto;
 }
