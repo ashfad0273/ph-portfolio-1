@@ -190,7 +190,7 @@ about-me p,
 
 .what-i-do .what-i-do-boxes .what-i-do-boxe {
   width: 267px;
-  height: 377px;
+  height: auto;
   padding: 30px;
   border-radius: 5px;
   background: #fff;
