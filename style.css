@@ -231,12 +231,41 @@ about-me p,
   font-weight: 700;
   line-height: normal;
 }
+
+/* summary section closed */
+
 footer {
   background: #fff8f3;
+  margin-top: 100px;
 }
 .footer {
   padding: 130px 0;
   display: flex;
+  gap: 30px;
   width: 1140px;
   margin: auto;
+}
+.connect {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 50%;
+}
+.msg {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+form input {
+  background-color: white;
+  width: 461px;
+  height: 64px;
+  border-radius: 5px;
+  padding: 8px 30px;
+  border: none;
 }
