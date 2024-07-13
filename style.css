@@ -124,9 +124,9 @@ header nav ul li {
 /* banner closed */
 
 .about-me {
-  margin: 50px 0;
+  margin: 50px auto;
   width: 1140px;
-  height: auto;
+
   border-radius: 10px;
   background: #fff8f3;
   padding: 100px;
